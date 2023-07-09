@@ -1,0 +1,43 @@
+body{ 
+    background-color: rgb(51, 111, 141);
+
+}
+.panel1{
+    width: 400px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+flex-wrap: wrap;
+
+}
+.outbox{
+    display: inline-block;
+    border: 1px solid black;
+    width: 145px;
+    height: 350px;
+    margin: 5px;
+    background-color: rgb(93, 81, 81);
+}
+.movieimg{
+    margin: 4%;
+    
+}
+.data{
+    margin: 4%;
+    color: aliceblue;
+   
+}
+.checked{
+    color: orange;
+}
+.slec:hover{
+    border: 2px solid rgb(16, 15, 15);
+}
+.navbar{
+    height: 100px;
+    background-color: #0E2954;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    /* justify-content: center; */
+}
