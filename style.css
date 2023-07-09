@@ -3,7 +3,7 @@
     padding: 0;
 }
 .navbar{
-    height: 100px;
+    height: 80px;
     background-color: #0E2954;
     display: flex;
     align-items: center;
@@ -28,7 +28,7 @@ a{
 }
 .panel1{
     background-color: #1F6E8C;
-    height: 30px;
+    height: 20px;
     display: flex;
     align-items: center;
 }
@@ -60,7 +60,7 @@ a{
     border: 1px solid white;
 }
 footer{
-    height: 200px;
+    height: 120px;
     background-color: black;
     color: aliceblue;
     display: flex;
