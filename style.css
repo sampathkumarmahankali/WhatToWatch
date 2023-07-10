@@ -78,15 +78,6 @@ a.active,a:hover{
         left: 0;
     }
 }
-
-/* .page{
-    display: flex;
-    align-items:flex-start;
-    height: 40px;
-}
-.slec:hover{
-    border: 1px solid white;
-} */
 .panel1{
     background-color: #1F6E8C;
     height: 20px;
