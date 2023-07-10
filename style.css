@@ -40,18 +40,23 @@ a{
 .panel2{
     height: 500px;
     color: rgb(0, 0, 0);
-    background-color: rgb(65, 61, 61);
     display: flex;
     align-items: center;
 }
+body{
+    background-image: url("https://testbeamvideos.s3.ap-southeast-2.amazonaws.com/Landing/landing-bg-ww.jpg")
+
+}
 .message{
-    color: aliceblue;
-    margin: 200px;
-    height: 300px;
+    color: rgb(231, 234, 238);
+    background-color: rgba(20, 19, 19, 0.5);
+    margin: 100px;
+    height: 200px;
     width: 800px;
     border: 10px;
     font-size: 2rem;
 }
+
 .panelin{
     height: 50px;
     margin: 70px;
@@ -60,7 +65,7 @@ a{
     border: 1px solid white;
 }
 footer{
-    height: 120px;
+    height: 150px;
     background-color: black;
     color: aliceblue;
     display: flex;
