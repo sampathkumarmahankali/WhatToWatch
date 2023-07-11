@@ -88,7 +88,7 @@ a.active,a:hover{
     color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
-    background-image: url("https://testbeamvideos.s3.ap-southeast-2.amazonaws.com/Landing/landing-bg-ww.jpg");
+    background-image: url("backg.png");
 }
 /* body{
     background-image: url("https://testbeamvideos.s3.ap-southeast-2.amazonaws.com/Landing/landing-bg-ww.jpg")
