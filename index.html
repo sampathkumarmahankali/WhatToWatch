@@ -5,21 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header> 
-        <div class="navbar">
-                <div class="logo">
-                    <img src="pagelogo1.png" alt="logo" width="300">
-                </div>
-                <div class="page slec"><a href="#">Home</a></div>
-                <div class="page slec"><a href="hollywood.html">HollyWood</a></div>
-                <div class="page slec"><a href="tollywood.html">TollyWood</a></div>
-                <div class="page slec"><a href="#">BollyWood</a></div>
-        </div>
-        <div class="panel1">
-            <div id="welcome">Home.Welcome</div>
-        </div>
+        <nav>
+            <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa fa-bars"></i>
+                </label>
+                    <div class="logo">
+                        <img src="pagelogo1.png" alt="logo" width="200">
+                    </div>
+                    <ul>
+                        <li class="page slec"><a href="#">Home</a></li>
+                        <li class="page slec"><a href="hollywood.html">HollyWood</a></li>
+                        <li class="page slec"><a href="tollywood.html">TollyWood</a></li>
+                        <li class="page slec"><a href="#">BollyWood</a></li>
+                    </ul>
+                    
+                    </nav>
     </header>
     <div class="panel2">
         <div class="message">Looking for something fun to watch now or later today?
@@ -31,9 +36,9 @@
         <div class="aboutus">
             <h2>About Us</h2>
             <div class="footcon">
-                <ul><a href="#">Terms of service</a></ul>
-                <ul><a href="#">Contact</a></ul>
-                <ul><a href="#">Site map</a></ul>
+                <div><a href="#">Terms of service</a></div>
+                <div><a href="#">Contact</a></div>
+                <div><a href="#">Site map</a></div>
             </div>
         </div>
     </footer>
